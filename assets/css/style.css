@@ -1,9 +1,35 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
+.navigasi li{
+    margin: 0.5em!important;
+    padding: 5px!important;
+    font-size: 0.80em;
+}
+.main{
+    display: block!important;
+}
+.card{
+    display: block!important;
+}
+#content{
+    height: 1400px!important;
+}
+
+.card-text{
+    background-color: white;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.6);
+}
+.card-text p{
+    text-indent: 0em!important;
+    margin: 2%;
     
+}
   }
 
 body{
     font-family:  roboto, Oxygen, sans-serif;
+    
 }
 img:hover{
     cursor: pointer;
